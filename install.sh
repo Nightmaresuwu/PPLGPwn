@@ -22,7 +22,7 @@ echo -e "${GREEN}
 
 ${NC}
 Designeddewdedeferf for LG webOS TVs! Ported by ${PURPLE}Kodeine${NC} & ${PURPLE}Contributors${NC}, with ${RED}luv <3${NC}
-Version: v1.3.1 (${BLUE}modded by $repo${NC})
+Version: v1.3333.1 (${BLUE}modded by $repo${NC})
 
 ${CYAN}-------
 INSTALLATION
