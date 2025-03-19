@@ -35,7 +35,7 @@ reinstall=false
 cpu_arch=`uname -m`
 if [ -d /media/internal/downloads/PPLGPwn ]
 then
-  read -p "PPLGPwn already installed. Reinstall? [Y/N] " response
+  read -p "PPLGPwn by dyaed already installed. Reinstall? [Y/N] " response
   case "$response" in
     [yY][eE][sS]|[yY])  echo "Removing PPLGPwn to reinstall..."
 	    pkill -f "pppwn"
