@@ -1,5 +1,5 @@
 clear 
-repo=llbranco
+repo=Nightmaresuwu
 RED='\033[0;91m'
 GREEN='\033[0;92m'
 YELLOW='\033[0;93m'
@@ -22,7 +22,7 @@ echo -e "${GREEN}
 
 ${NC}
 Designed for LG webOS TVs! Ported by ${PURPLE}Kodeine${NC} & ${PURPLE}Contributors${NC}, with ${RED}luv <3${NC}
-Version: v1.3.1 (${BLUE}modded by llbranco${NC})
+Version: v1.3.1 (${BLUE}modded by $repo${NC})
 
 ${CYAN}-------
 INSTALLATION
@@ -40,9 +40,9 @@ then
     [yY][eE][sS]|[yY])  echo "Removing PPLGPwn to reinstall..."
 	    pkill -f "pppwn"
 		pkill -f "pppwn_$cpu_arch"
-            rm -rf /media/internal/downloads/PPLGPwn
-                reinstall=true
-                    echo "Done!" ;;
+        rm -rf /media/internal/downloads/PPLGPwn
+        reinstall=true
+        echo "Done!" ;;
   esac
 else
   reinstall=true
@@ -55,9 +55,9 @@ then
     [yY][eE][sS]|[yY])  echo "Removing PPLGPwn to reinstall..."
 		pkill -f "pppwn"
 		pkill -f "pppwn_$cpu_arch"
-            rm -rf /media/internal/downloads/PPLGPwn-main
-                reinstall=true
-                    echo "Done!" ;;
+        rm -rf /media/internal/downloads/PPLGPwn-main
+        reinstall=true
+        echo "Done!" ;;
   esac
 else
   reinstall=true
@@ -117,7 +117,7 @@ echo "Done!
 "
 echo "If you wish to change the stage2.bin go into /media/internal/downloads/PPLGPwn and replace the exisiting stage2.bin!
 "
-echo "To run the exploit execute "run.sh" present in the mentioned directory! But to make it simplier follow the steps to execute the exploit with the click of a button! :)"
+echo "To run the exploit execute 'run.sh' present in the mentioned directory! But to make it simpler, follow the steps to execute the exploit with the click of a button! :)"
 echo "Enjoy ;)"
 
 luna-send -a webosbrew -f -n 1 luna://com.webos.notification/createToast '{"sourceId":"webosbrew","message": "<b>PPLGPwn installed.</b>"}'
